@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0ebe4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.scoreboard {
+    display: flex;
+    background-color: #1f2a44;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+.team {
+    margin: 20px;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 60px;
+    font-family: 'Digital-7', sans-serif;
+    color: #ff4757;
+    background-color: black;
+    padding: 20px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #dcdde1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #b2bec3;
+}
