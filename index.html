@@ -8,25 +8,36 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="scoreboard">
-        <div class="team">
-            <h2>HOME</h2>
-            <div class="score" id="home-score">0</div>
-            <div class="buttons">
-                <button onclick="increaseScore('home', 1)">+1</button>
-                <button onclick="increaseScore('home', 2)">+2</button>
-                <button onclick="increaseScore('home', 3)">+3</button>
-            </div>
+    <div class="fullplane">
+        <div class="leadingTeam">
+            <p>
+                <h1 id="team-el"></h1>
+                <h1 id="point-el"></h1>
+            </p>
+            
         </div>
-        <div class="team">
-            <h2>AWAY</h2>
-            <div class="score" id="guest-score">0</div>
-            <div class="buttons">
-                <button onclick="increaseScore('guest', 1)">+1</button>
-                <button onclick="increaseScore('guest', 2)">+2</button>
-                <button onclick="increaseScore('guest', 3)">+3</button>
+        <div class="scoreboard">
+    
+            <div class="team">
+                <h2>HOME</h2>
+                <div class="score" id="home-score">0</div>
+                <div class="buttons">
+                    <button onclick="increaseScore('home', 1)">+1</button>
+                    <button onclick="increaseScore('home', 2)">+2</button>
+                    <button onclick="increaseScore('home', 3)">+3</button>
+                </div>
+            </div>
+            <div class="team">
+                <h2>AWAY</h2>
+                <div class="score" id="guest-score">0</div>
+                <div class="buttons">
+                    <button onclick="increaseScore('guest', 1)">+1</button>
+                    <button onclick="increaseScore('guest', 2)">+2</button>
+                    <button onclick="increaseScore('guest', 3)">+3</button>
+                </div>
             </div>
         </div>
     </div>
+    
 </body>
 </html>
